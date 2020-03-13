@@ -1,11 +1,9 @@
 # wab_scraping_measurabl
-Script for Measurabl
-
-Read Me
-
 This is the repository to download all the meter readings into Measurabl.
+Measurabl is a ESG software for commercial real estate. (https://www.measurabl.com/)
+It helps to keep track of asset information, meter information, usage amount, utility cost etc as well as to create reports.  
 
-1. How to use
+## Usage
 
 (1) Run meter_list.ipynb
 
@@ -14,7 +12,7 @@ This is the repository to download all the meter readings into Measurabl.
 (3) Get final output in a directory "out_meter_readings"
 
 
-2. Directory tree
+## Directory tree
 <pre>
 .
 ├─config.json
@@ -28,7 +26,7 @@ This is the repository to download all the meter readings into Measurabl.
 └─measurabl_sites_meter.xlsx
 </pre>
 
-[Directory]
+### Directory
 
 * download_meter
 Invidiaul meter list by asset.
@@ -43,12 +41,11 @@ Combined meter list. Output of meter_list.py
 Combined meter reading data by utility; electric, fuel, district and water.
 Output of get_meter_readings.py
 
-[Script]
+### Script
 
 meter_list.ipynb
 get_meter_readings.ipynb
 
-
-[Master file]
+### Master file
 measurabl_sites_meter.xlsx
 
